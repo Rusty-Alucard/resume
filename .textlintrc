@@ -1,0 +1,16 @@
+{
+  "filters": {},
+  "rules": {
+    "no-todo": true,
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        "max": 6,
+        "allow" :[
+          "情報処理技術者試験",
+          "開発技術者試験"
+        ]
+      }
+    }
+  }
+}
