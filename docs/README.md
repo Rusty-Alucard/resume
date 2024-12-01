@@ -183,3 +183,7 @@
 - Bash
 - C
 - MySQL
+
+## インタビュー・記事掲載等
+- [過渡期を迎えるスタートアップの開発組織の舞台裏](https://note.com/contracts/n/n93cf2ee8d4ca)
+- [20を超えるBtoB SaaSの価値を最大化する「クラウド横断本部」～Vol.1 本部長 神谷 和志～](https://note.com/recruit_mfbc/n/nee836bec975d)
