@@ -6,9 +6,12 @@
 |---|---|
 |氏名|神谷 和志 (Kamiya Kazushi)|
 |連絡先|rusty0929+job@gmail.com|
+|Facebook|[rusty0929](https://www.facebook.com/rusty0929)|
+|X|[@tech_rusty](https://x.com/tech_rusty)|
 
 ## 各種アカウント
 
+- [Github](https://github.com/Rusty-Alucard)
 
 ## 技術スタック
 
@@ -41,7 +44,7 @@
 
 ## 学歴
 
-- 2021年3月　茨城大学工学部物質工学科 卒業
+- 茨城大学工学部物質工学科卒業 (2001年3月)
 
 ## 職務経歴詳細
 
