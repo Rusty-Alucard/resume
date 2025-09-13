@@ -44,13 +44,14 @@
 ### データベース
 <p>
   <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img alt="Memcached" src="https://img.shields.io/badge/-Memcached-000000?style=flat-square&logo=memcached&logoColor=white" />
   <img alt="Oracle" src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
 </p>
 
 ### その他の技術
 <p>
-  <img alt="Unity" src="https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white" />
-  <img alt="Hadoop" src="https://img.shields.io/badge/-Hadoop-66CCFF?style=flat-square&logo=apache-hadoop&logoColor=white" />
   <img alt="Bash" src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
   <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
 </p>
