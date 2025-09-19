@@ -6,12 +6,15 @@
 |---|---|
 |氏名|神谷 和志 (Kamiya Kazushi)|
 |連絡先|rusty0929+job@gmail.com|
+|勤務地|東京|
+|希望勤務地|東京|
 |Facebook|[rusty0929](https://www.facebook.com/rusty0929)|
 |X|[@tech_rusty](https://x.com/tech_rusty)|
 
 ## 各種アカウント
 
 - [Github](https://github.com/Rusty-Alucard)
+- [LinkedIn](https://www.linkedin.com/in/kazushi-kamiya/)
 
 ## 技術スタック
 
@@ -60,6 +63,7 @@
 <p>
   <img alt="Cursor" src="https://img.shields.io/badge/-Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
   <img alt="Claude" src="https://img.shields.io/badge/-Claude-FF6B35?style=flat-square&logo=anthropic&logoColor=white" />
+  <img alt="Gemini" src="https://img.shields.io/badge/-Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white" />
   <img alt="MCP" src="https://img.shields.io/badge/-MCP-00D4AA?style=flat-square&logo=model-context-protocol&logoColor=white" />
 </p>
 
@@ -70,6 +74,12 @@
   - アプリケーションエンジニア試験
   - プロジェクトマネージャ試験
 - [Project Management Professional](https://www.credly.com/badges/64787f67-22a4-4659-bc60-eb939957fbde/public_url)（2012年取得）
+
+### 語学力
+
+- **英語**
+  - TOEIC 710
+  - PROGOS B1
 
 ## 学歴
 
@@ -95,6 +105,9 @@
 - 社内外のエンジニアエンゲージメント (Engineer Engagement)
   - DevRel
   - エンジニア向け福利厚生
+- AI駆動開発の推進
+  - Cursor、Claude、Geminiを活用した開発生産性の向上
+  - MCP（Model Context Protocol）を活用したAIツール連携
 
 **イベント実績**
 - マネーフォワード初の自社テックカンファレンスのProgram Director
