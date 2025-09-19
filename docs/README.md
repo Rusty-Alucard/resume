@@ -6,12 +6,16 @@
 |---|---|
 |氏名|神谷 和志 (Kamiya Kazushi)|
 |連絡先|rusty0929+job@gmail.com|
+|勤務地|東京|
+|希望勤務地|東京|
 |Facebook|[rusty0929](https://www.facebook.com/rusty0929)|
 |X|[@tech_rusty](https://x.com/tech_rusty)|
 
 ## 各種アカウント
 
 - [Github](https://github.com/Rusty-Alucard)
+- [LinkedIn](https://www.linkedin.com/in/kazushi-kamiya/)
+- [YouTrust](https://youtrust.jp/users/kazushi_kamiya)
 
 ## 技術スタック
 
@@ -34,6 +38,36 @@
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
+### インフラ・クラウド
+<p>
+  <img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+  <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" />
+  <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+</p>
+
+### データベース
+<p>
+  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img alt="Memcached" src="https://img.shields.io/badge/-Memcached-000000?style=flat-square&logo=memcached&logoColor=white" />
+  <img alt="Oracle" src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
+</p>
+
+### その他の技術
+<p>
+  <img alt="Bash" src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+  <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
+</p>
+
+### AI駆動開発
+<p>
+  <img alt="Cursor" src="https://img.shields.io/badge/-Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+  <img alt="Claude" src="https://img.shields.io/badge/-Claude-FF6B35?style=flat-square&logo=anthropic&logoColor=white" />
+  <img alt="Gemini" src="https://img.shields.io/badge/-Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white" />
+  <img alt="MCP" src="https://img.shields.io/badge/-MCP-00D4AA?style=flat-square&logo=model-context-protocol&logoColor=white" />
+</p>
+
 ### 資格
 
 - 情報処理技術者試験
@@ -41,6 +75,12 @@
   - アプリケーションエンジニア試験
   - プロジェクトマネージャ試験
 - [Project Management Professional](https://www.credly.com/badges/64787f67-22a4-4659-bc60-eb939957fbde/public_url)（2012年取得）
+
+### 語学力
+
+- **英語**
+  - TOEIC 710
+  - PROGOS B1
 
 ## 学歴
 
@@ -66,6 +106,9 @@
 - 社内外のエンジニアエンゲージメント (Engineer Engagement)
   - DevRel
   - エンジニア向け福利厚生
+- AI駆動開発の推進
+  - Cursor、Claude、Geminiを活用した開発生産性の向上
+  - MCP（Model Context Protocol）を活用したAIツール連携
 
 **イベント実績**
 - マネーフォワード初の自社テックカンファレンスのProgram Director
@@ -190,3 +233,5 @@
 ## インタビュー・記事掲載等
 - [過渡期を迎えるスタートアップの開発組織の舞台裏](https://note.com/contracts/n/n93cf2ee8d4ca)
 - [20を超えるBtoB SaaSの価値を最大化する「クラウド横断本部」～Vol.1 本部長 神谷 和志～](https://note.com/recruit_mfbc/n/nee836bec975d)
+- [Money Forward: Building a Global Engineering Organization](https://www.tokyodev.com/ja/articles/moneyforward)
+- [マネーフォワード VPoE特別対談: エンジニア組織の未来を拓くHRBPへのメッセージ](https://note.com/recruit_mfbc/n/n06cc20a3523a)
