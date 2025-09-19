@@ -22,6 +22,7 @@
 ### 言語
 <p>
   <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
+  <img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
   <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white" />
   <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />
   <img alt="Php" src="https://img.shields.io/badge/-Php-007396?style=flat-square&logo=Php&logoColor=white" />
@@ -58,6 +59,14 @@
 <p>
   <img alt="Bash" src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
   <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
+</p>
+
+### プロジェクト管理・開発手法
+<p>
+  <img alt="PMP" src="https://img.shields.io/badge/-PMP-FF6B35?style=flat-square&logo=project-management-institute&logoColor=white" />
+  <img alt="Scrum" src="https://img.shields.io/badge/-Scrum-009639?style=flat-square&logo=scrum&logoColor=white" />
+  <img alt="SRE" src="https://img.shields.io/badge/-SRE-FF6B35?style=flat-square&logo=site-reliability-engineering&logoColor=white" />
+  <img alt="QA" src="https://img.shields.io/badge/-QA-00D4AA?style=flat-square&logo=quality-assurance&logoColor=white" />
 </p>
 
 ### AI駆動開発
