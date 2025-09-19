@@ -15,6 +15,7 @@
 
 - [Github](https://github.com/Rusty-Alucard)
 - [LinkedIn](https://www.linkedin.com/in/kazushi-kamiya/)
+- [YouTrust](https://youtrust.jp/users/kazushi_kamiya)
 
 ## 技術スタック
 
@@ -233,5 +234,4 @@
 - [過渡期を迎えるスタートアップの開発組織の舞台裏](https://note.com/contracts/n/n93cf2ee8d4ca)
 - [20を超えるBtoB SaaSの価値を最大化する「クラウド横断本部」～Vol.1 本部長 神谷 和志～](https://note.com/recruit_mfbc/n/nee836bec975d)
 - [Money Forward: Building a Global Engineering Organization](https://www.tokyodev.com/ja/articles/moneyforward)
-- [YouTrust - 神谷和志](https://youtrust.jp/users/kazushi_kamiya)
 - [マネーフォワード VPoE特別対談: エンジニア組織の未来を拓くHRBPへのメッセージ](https://note.com/recruit_mfbc/n/n06cc20a3523a)
