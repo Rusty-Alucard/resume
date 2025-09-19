@@ -63,6 +63,7 @@
 
 ### プロジェクト管理・開発手法
 <p>
+  <img alt="PMP" src="https://img.shields.io/badge/-PMP-FF6B35?style=flat-square&logo=project-management-institute&logoColor=white" />
   <img alt="Scrum" src="https://img.shields.io/badge/-Scrum-009639?style=flat-square&logo=scrum&logoColor=white" />
   <img alt="SRE" src="https://img.shields.io/badge/-SRE-FF6B35?style=flat-square&logo=site-reliability-engineering&logoColor=white" />
   <img alt="QA" src="https://img.shields.io/badge/-QA-00D4AA?style=flat-square&logo=quality-assurance&logoColor=white" />
