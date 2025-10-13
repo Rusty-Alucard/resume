@@ -9,105 +9,38 @@
 |勤務地|東京|
 |希望勤務地|東京|
 
-## 職歴サマリ
+## 職務要約
 
-エンジニアとしてキャリアをスタートし、大規模システムの開発マネジメントを経験。技術的知見を軸に、グリー株式会社では技術部長として全社の技術戦略やディレクションを担いました。
+エンジニアとしてキャリアをスタートし、20年以上にわたり技術戦略と組織開発の両面からエンジニアリング組織の成長を牽引。グリー株式会社では技術部長として全社の技術戦略を担当し、マネーフォワードでは60〜80名規模の組織マネジメントを経験。
 
-より事業と組織の成長に貢献するため、マネーフォワードにVPoEとして参画。個人向け事業での組織づくりと採用・育成の仕組み化を実現した後、SaaS事業のプロダクト開発責任者を歴任。エンジニアリングとビジネスの両面から事業成長を推進してきました。
-2024年7月より再び全社VPoEとして、これまでの経験を活かし、グローバルなエンジニア採用戦略の策定と、持続的に成長するエンジニアリング組織の文化醸成に取り組んでいます。
+VPoEとして、グローバルな採用戦略の策定・実行、新卒・中途採用プログラムの刷新、エンジニア評価制度の設計を主導。SaaS事業のプロダクト開発責任者として、共通基盤のアーキテクチャ設計やレガシーシステムのモダン化を推進し、エンジニアリングとビジネスの両面から事業成長に貢献。
 
-## 各種アカウント
+現在は全社VPoEとして、持続的に成長するエンジニアリング組織の文化醸成とAI駆動開発の推進に取り組んでいます。
 
-- [LinkedIn](https://www.linkedin.com/in/kazushi-kamiya/)
-- [GitHub](https://github.com/Rusty-Alucard)
-- [YouTrust](https://youtrust.jp/users/kazushi_kamiya)
-- [X (Twitter)](https://x.com/tech_rusty)
-- [Facebook](https://www.facebook.com/rusty0929)
+## コアコンピテンシーと主要実績
 
-## 技術スタック
+### 技術戦略 & アーキテクチャ
 
-### 言語
+- コンポーネント型ERP戦略を支える共通業務基盤のアーキテクチャ設計・推進
+- 大規模トラフィックを捌くインフラ設計およびオンプレミスからクラウドへの移行経験
+- レガシーアーキテクチャのモダン化（マイクロサービス化、リアーキテクト）の計画と実行
 
-<p>
-  <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
-  <img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-  <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />
-  <img alt="Php" src="https://img.shields.io/badge/-Php-007396?style=flat-square&logo=Php&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-</p>
+### エンジニアリング組織開発
 
-### フレームワーク・その他
+- 60〜80名規模のエンジニア組織マネジメント（評価、育成、組織デザイン）
+- グローバルなエンジニア採用戦略の策定と実行
+- VPoEとして新卒・中途採用、研修、評価制度の設計と運用を主導
 
-<p>
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
- <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />
- <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
-  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-</p>
+### プロダクト開発 & 事業貢献
 
-### インフラ・クラウド
+- SaaS事業における複数プロダクト（共通基盤、課金、API等）の開発責任者として事業成長を牽引
+- 開発部門とマーケティング部門の連携を強化し、データ駆動での意思決定を推進
+- マネーフォワード初の自社テックカンファレンスのProgram Directorとして成功に導く
 
-<p>
-  <img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
-  <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" />
-  <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-</p>
+### AI駆動開発の推進
 
-### データベース
-
-<p>
-  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img alt="Memcached" src="https://img.shields.io/badge/-Memcached-000000?style=flat-square&logo=memcached&logoColor=white" />
-  <img alt="Oracle" src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
-</p>
-
-### その他の技術
-
-<p>
-  <img alt="Bash" src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-  <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
-</p>
-
-### プロジェクト管理・開発手法
-
-<p>
-  <img alt="PMP" src="https://img.shields.io/badge/-PMP-FF6B35?style=flat-square&logo=project-management-institute&logoColor=white" />
-  <img alt="Scrum" src="https://img.shields.io/badge/-Scrum-009639?style=flat-square&logo=scrum&logoColor=white" />
-  <img alt="SRE" src="https://img.shields.io/badge/-SRE-FF6B35?style=flat-square&logo=site-reliability-engineering&logoColor=white" />
-  <img alt="QA" src="https://img.shields.io/badge/-QA-00D4AA?style=flat-square&logo=quality-assurance&logoColor=white" />
-</p>
-
-### AI駆動開発
-
-<p>
-  <img alt="Cursor" src="https://img.shields.io/badge/-Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
-  <img alt="Claude" src="https://img.shields.io/badge/-Claude-FF6B35?style=flat-square&logo=anthropic&logoColor=white" />
-  <img alt="Gemini" src="https://img.shields.io/badge/-Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white" />
-  <img alt="MCP" src="https://img.shields.io/badge/-MCP-00D4AA?style=flat-square&logo=model-context-protocol&logoColor=white" />
-</p>
-
-### 資格
-
-- 情報処理技術者試験
-  - ソフトウェア開発技術者試験
-  - アプリケーションエンジニア試験
-  - プロジェクトマネージャ試験
-- [Project Management Professional](https://www.credly.com/badges/64787f67-22a4-4659-bc60-eb939957fbde/public_url)（2012年取得）
-
-### 語学力
-
-- **英語**
-  - TOEIC 710
-  - PROGOS B1
-
-## 学歴
-
-- 茨城大学工学部物質工学科卒業 (2001年3月)
+- Cursor、Gemini、Claude等を活用した開発プロセスの生産性向上の施策導入
+- MCP（Model Context Protocol）を活用したAIツール連携のPoC推進
 
 ## 職務経歴詳細
 
@@ -270,7 +203,46 @@
 - C
 - MySQL
 
-## インタビュー・記事掲載等
+## 主要技術スタック
+
+- 言語: Ruby, Kotlin, PHP, Java / TypeScript / JavaScript
+- フレームワーク: Ruby on Rails, React, Apollo/GraphQL
+- インフラ・クラウド: AWS, Kubernetes, Terraform, Docker
+- データベース: MySQL, PostgreSQL, Redis, Oracle
+- プロジェクト管理: Scrum, PMP, SRE, QA
+- AI駆動開発: Cursor, Claude, Gemini, MCP
+
+## 資格・語学・学歴
+
+### 資格
+
+- 情報処理技術者試験
+  - ソフトウェア開発技術者試験
+  - アプリケーションエンジニア試験
+  - プロジェクトマネージャ試験
+- [Project Management Professional](https://www.credly.com/badges/64787f67-22a4-4659-bc60-eb939957fbde/public_url)（2012年取得）
+
+### 語学力
+
+- **英語**
+  - TOEIC 710
+  - PROGOS B1
+
+### 学歴
+
+- 茨城大学工学部物質工学科卒業 (2001年3月)
+
+## 講演・記事・アカウント
+
+### 各種アカウント
+
+- [LinkedIn](https://www.linkedin.com/in/kazushi-kamiya/)
+- [GitHub](https://github.com/Rusty-Alucard)
+- [YouTrust](https://youtrust.jp/users/kazushi_kamiya)
+- [X (Twitter)](https://x.com/tech_rusty)
+- [Facebook](https://www.facebook.com/rusty0929)
+
+### インタビュー・記事掲載
 
 - [過渡期を迎えるスタートアップの開発組織の舞台裏](https://note.com/contracts/n/n93cf2ee8d4ca)
 - [20を超えるBtoB SaaSの価値を最大化する「クラウド横断本部」～Vol.1 本部長 神谷 和志～](https://note.com/recruit_mfbc/n/nee836bec975d)
