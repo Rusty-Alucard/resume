@@ -3,7 +3,7 @@
   "rules": {
     "no-todo": true,
     "preset-ja-spacing": true,
-    "preset-ja-technical-writing": {
+    "@textlint-ja/textlint-rule-preset-ja-technical-writing": {
       "max-kanji-continuous-len": {
         "max": 6,
         "allow" :[
@@ -13,6 +13,7 @@
           "茨城大学工学部物質工学科卒業"
         ]
       }
-    }
+    },
+    "@textlint-ja/textlint-rule-preset-ai-writing": true
   }
 }
