@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "textlint docs/README.md",
-    "lint:md": "markdownlint docs/README.md",
+    "lint": "textlint docs/index.md",
+    "lint:md": "markdownlint docs/index.md",
     "lint:all": "npm run lint && npm run lint:md",
-    "lint:fix": "textlint --fix docs/README.md",
+    "lint:fix": "textlint --fix docs/index.md",
     "lint:pages": "npm run lint:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
