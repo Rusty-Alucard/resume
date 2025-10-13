@@ -8,9 +8,6 @@
 |連絡先|<rusty0929+job@gmail.com>|
 |勤務地|東京|
 |希望勤務地|東京|
-|Facebook|[rusty0929](https://www.facebook.com/rusty0929)|
-|X|[@tech_rusty](https://x.com/tech_rusty)|
-|YouTrust|[kazushi_kamiya](https://youtrust.jp/users/kazushi_kamiya)|
 
 ## 職歴サマリ
 
@@ -21,9 +18,11 @@
 
 ## 各種アカウント
 
-- [Github](https://github.com/Rusty-Alucard)
 - [LinkedIn](https://www.linkedin.com/in/kazushi-kamiya/)
+- [GitHub](https://github.com/Rusty-Alucard)
 - [YouTrust](https://youtrust.jp/users/kazushi_kamiya)
+- [X (Twitter)](https://x.com/tech_rusty)
+- [Facebook](https://www.facebook.com/rusty0929)
 
 ## 技術スタック
 
