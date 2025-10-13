@@ -1,0 +1,238 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* AI/Technology-inspired minimal design */
+
+:root {
+  --primary-color: #0066cc;
+  --secondary-color: #00d4aa;
+  --accent-color: #ff6b35;
+  --text-color: #24292e;
+  --bg-color: #ffffff;
+  --code-bg: #f6f8fa;
+  --border-color: #e1e4e8;
+  --gradient-start: #667eea;
+  --gradient-end: #764ba2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #c9d1d9;
+    --bg-color: #0d1117;
+    --code-bg: #161b22;
+    --border-color: #30363d;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.7;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  padding: 2rem 0;
+  color: white;
+  
+  h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+  }
+}
+
+/* Section headers with accent */
+h2 {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  
+  &:first-of-type {
+    margin-top: 2rem;
+  }
+}
+
+h3 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
+  &::before {
+    content: "▸ ";
+    color: var(--secondary-color);
+  }
+}
+
+h4 {
+  color: var(--text-color);
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+h5 {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+  }
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  background: var(--bg-color);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  
+  th {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    color: white;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  tr:hover {
+    background-color: var(--code-bg);
+  }
+}
+
+/* Badge styling */
+img[alt*="badge"] {
+  display: inline-block;
+  margin: 0.25rem;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  
+  li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+}
+
+/* Core Competencies section - special styling */
+h2:has(+ h3[id*="技術戦略"]),
+h2:has(+ h3[id*="エンジニアリング"]),
+h2:has(+ h3[id*="プロダクト"]),
+h2:has(+ h3[id*="AI駆動"]) {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  color: white;
+  padding: 1rem;
+  border-left: none;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+
+/* Code and pre */
+code {
+  background-color: var(--code-bg);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+pre {
+  background-color: var(--code-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  header {
+    background: white;
+    color: black;
+  }
+  
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  img[alt*="badge"] {
+    display: none;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--secondary-color);
+  color: white;
+}
+

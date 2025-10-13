@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
+title: 神谷 和志 | VP of Engineering
+description: エンジニアリング組織の成長を牽引するVP of Engineering。技術戦略、組織開発、AI駆動開発の推進。
+show_downloads: false
+google_analytics: 
+logo: 
+
+# SEO
+lang: ja
+author: 神谷 和志 (Kamiya Kazushi)
+keywords: VP of Engineering, エンジニアリング組織, 技術戦略, AI駆動開発, マネーフォワード
+
+# Social
+twitter:
+  username: tech_rusty
+linkedin:
+  username: kazushi-kamiya
