@@ -7,6 +7,8 @@
     "lint": "textlint docs/README.md",
     "lint:md": "markdownlint docs/README.md",
     "lint:all": "npm run lint && npm run lint:md",
+    "lint:fix": "textlint --fix docs/README.md",
+    "lint:pages": "npm run lint:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +25,8 @@
   "devDependencies": {
     "markdownlint-cli": "^0.39.0",
     "textlint": "^12.2.2",
+    "textlint-filter-rule-allowlist": "^4.0.0",
+    "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-no-todo": "^2.0.1",
     "textlint-rule-preset-ai-writing": "^1.0.0",
     "textlint-rule-preset-ja-spacing": "^2.2.0",
