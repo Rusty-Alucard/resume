@@ -3,7 +3,7 @@
   "rules": {
     "no-todo": true,
     "preset-ja-spacing": true,
-    "@textlint-ja/textlint-rule-preset-ja-technical-writing": {
+    "preset-ja-technical-writing": {
       "max-kanji-continuous-len": {
         "max": 6,
         "allow" :[
@@ -14,6 +14,6 @@
         ]
       }
     },
-    "@textlint-ja/textlint-rule-preset-ai-writing": true
+    "preset-ai-writing": true
   }
 }
