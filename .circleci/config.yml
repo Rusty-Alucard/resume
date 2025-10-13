@@ -1,0 +1,26 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.1.0
+
+jobs:
+  lint:
+    docker:
+      - image: cimg/node:18.19
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Run textlint
+          command: npm run lint
+      - run:
+          name: Run markdownlint
+          command: npm run lint:md
+
+workflows:
+  version: 2
+  lint-workflow:
+    jobs:
+      - lint
+
