@@ -1,0 +1,8 @@
+node_modules/
+.git/
+_site/
+.jekyll-cache/
+vendor/
+*.min.js
+*.min.css
+

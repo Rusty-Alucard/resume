@@ -1,17 +1,37 @@
 {
-  "filters": {},
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "/https?:\\/\\/[^\\s]+/",
+        "/mailto:[^\\s]+/"
+      ]
+    }
+  },
   "rules": {
     "no-todo": true,
-    "preset-ja-spacing": true,
+    "preset-ja-spacing": {
+      "ja-space-around-link": {
+        "before": false,
+        "after": false
+      }
+    },
     "preset-ja-technical-writing": {
       "max-kanji-continuous-len": {
         "max": 6,
-        "allow" :[
+        "allow": [
           "情報処理技術者試験",
           "開発技術者試験",
           "非機能技術要件管掌",
-          "茨城大学工学部物質工学科卒業"
+          "茨城大学工学部物質工学科卒業",
+          "生産性向上施策"
         ]
+      },
+      "no-exclamation-question-mark": {
+        "allowHalfWidthExclamation": false,
+        "allowFullWidthExclamation": false,
+        "allowHalfWidthQuestion": false,
+        "allowFullWidthQuestion": false
       }
     },
     "preset-ai-writing": true

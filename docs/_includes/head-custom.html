@@ -1,0 +1,50 @@
+<!-- SEO and Social Meta Tags -->
+<meta name="description" content="{{ site.description }}">
+<meta name="keywords" content="{{ site.keywords }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:locale" content="ja_JP">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta property="twitter:title" content="{{ site.title }}">
+<meta property="twitter:description" content="{{ site.description }}">
+{% if site.twitter.username %}
+<meta property="twitter:creator" content="@{{ site.twitter.username }}">
+{% endif %}
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "神谷 和志",
+  "alternateName": "Kamiya Kazushi",
+  "jobTitle": "VP of Engineering",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "株式会社マネーフォワード"
+  },
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "https://www.linkedin.com/in/{{ site.linkedin.username }}",
+    "https://twitter.com/{{ site.twitter.username }}",
+    "https://github.com/Rusty-Alucard"
+  ]
+}
+</script>
+
+<!-- Performance optimization -->
+<link rel="preconnect" href="https://img.shields.io">
+<link rel="dns-prefetch" href="https://img.shields.io">
+

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 職務経歴書
 
 ## 基本情報
@@ -5,7 +9,7 @@
 |key|value|
 |---|---|
 |氏名|神谷 和志 (Kamiya Kazushi)|
-|連絡先|<rusty0929+job@gmail.com>|
+|連絡先|[rusty0929+job@gmail.com](mailto:rusty0929+job@gmail.com)|
 |勤務地|東京|
 |希望勤務地|東京|
 
@@ -205,12 +209,69 @@ VPoEとして、グローバルな採用戦略の策定・実行、新卒・中�
 
 ## 主要技術スタック
 
-- 言語: Ruby, Kotlin, PHP, Java / TypeScript / JavaScript
-- フレームワーク: Ruby on Rails, React, Apollo/GraphQL
-- インフラ・クラウド: AWS, Kubernetes, Terraform, Docker
-- データベース: MySQL, PostgreSQL, Redis, Oracle
-- プロジェクト管理: Scrum, PMP, SRE, QA
-- AI駆動開発: Cursor, Claude, Gemini, MCP
+### 言語
+
+<p>
+  <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
+  <img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+  <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+</p>
+
+### フレームワーク・その他
+
+<p>
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />
+  <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
+  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+### インフラ・クラウド
+
+<p>
+  <img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+  <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" />
+  <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+</p>
+
+### データベース
+
+<p>
+  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img alt="Memcached" src="https://img.shields.io/badge/-Memcached-000000?style=flat-square&logo=memcached&logoColor=white" />
+  <img alt="Oracle" src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
+</p>
+
+### その他の技術
+
+<p>
+  <img alt="Bash" src="https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+  <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
+</p>
+
+### プロジェクト管理・開発手法
+
+<p>
+  <img alt="PMP" src="https://img.shields.io/badge/-PMP-FF6B35?style=flat-square&logo=project-management-institute&logoColor=white" />
+  <img alt="Scrum" src="https://img.shields.io/badge/-Scrum-009639?style=flat-square&logo=scrum&logoColor=white" />
+  <img alt="SRE" src="https://img.shields.io/badge/-SRE-FF6B35?style=flat-square&logo=site-reliability-engineering&logoColor=white" />
+  <img alt="QA" src="https://img.shields.io/badge/-QA-00D4AA?style=flat-square&logo=quality-assurance&logoColor=white" />
+</p>
+
+### AI駆動開発
+
+<p>
+  <img alt="Cursor" src="https://img.shields.io/badge/-Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+  <img alt="Claude" src="https://img.shields.io/badge/-Claude-FF6B35?style=flat-square&logo=anthropic&logoColor=white" />
+  <img alt="Gemini" src="https://img.shields.io/badge/-Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white" />
+  <img alt="MCP" src="https://img.shields.io/badge/-MCP-00D4AA?style=flat-square&logo=model-context-protocol&logoColor=white" />
+</p>
 
 ## 資格・語学・学歴
 
