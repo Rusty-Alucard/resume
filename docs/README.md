@@ -10,6 +10,7 @@
 |希望勤務地|東京|
 |Facebook|[rusty0929](https://www.facebook.com/rusty0929)|
 |X|[@tech_rusty](https://x.com/tech_rusty)|
+|YouTrust|[kazushi_kamiya](https://youtrust.jp/users/kazushi_kamiya)|
 
 ## 職歴サマリ
 
