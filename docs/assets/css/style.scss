@@ -3,126 +3,168 @@
 
 @import "{{ site.theme }}";
 
-/* Professional minimal design */
+/* Executive Modern Design - Professional yet distinctive */
 
 :root {
-  --primary-color: #2c5282;
-  --secondary-color: #4299e1;
-  --accent-color: #2d3748;
+  /* Professional color palette */
+  --primary-color: #1A237E;
+  --secondary-color: #00A9A5;
+  --accent-color: #BDB76B;
   --text-color: #2d3748;
-  --bg-color: #ffffff;
-  --code-bg: #f7fafc;
-  --border-color: #e2e8f0;
-  --header-bg: #2c5282;
-  --header-text: #ffffff;
+  --text-light: #718096;
+  --bg-color: #FAFAFA;
+  --bg-secondary: #F8F8F8;
+  --code-bg: #F7FAFC;
+  --border-color: #E2E8F0;
+  --header-bg: #1A237E;
+  --header-text: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #c9d1d9;
-    --bg-color: #0d1117;
-    --code-bg: #161b22;
-    --border-color: #30363d;
+    --text-color: #EAEAEA;
+    --text-light: #A0AEC0;
+    --bg-color: #1A1A1A;
+    --bg-secondary: #242424;
+    --code-bg: #2D2D2D;
+    --border-color: #3A3A3A;
   }
 }
 
+/* Typography - Executive level */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--text-color);
   background-color: var(--bg-color);
-  line-height: 1.7;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-/* Header styling */
+/* Headings with Montserrat */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Header - Clean and professional */
 header {
   background: var(--header-bg);
-  padding: 2rem 0;
+  padding: 3rem 0;
   color: var(--header-text);
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 4px solid var(--secondary-color);
   
   h1 {
-    font-weight: 600;
-    font-size: 2.2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.03em;
   }
   
   p {
-    font-size: 1rem;
-    opacity: 0.9;
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 0.95;
+    letter-spacing: 0.02em;
   }
 }
 
-/* Section headers with accent */
+/* Section headers - Distinctive but professional */
 h2 {
-  border-left: 4px solid var(--primary-color);
-  padding-left: 1rem;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-size: 1.75rem;
   font-weight: 700;
-  color: var(--text-color);
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid var(--secondary-color);
+  position: relative;
   
   &:first-of-type {
     margin-top: 2rem;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: var(--accent-color);
   }
 }
 
 h3 {
   color: var(--primary-color);
   font-weight: 600;
-  margin-top: 2rem;
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid var(--border-color);
-  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--secondary-color);
 }
 
 h4 {
   color: var(--text-color);
   font-weight: 600;
-  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
 }
 
 h5 {
   color: var(--accent-color);
   font-weight: 600;
   font-size: 0.95rem;
-  margin-top: 1.2rem;
-  letter-spacing: 0.3px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-/* Links */
+/* Links - Professional hover effect */
 a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
   
   &:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
+    color: var(--primary-color);
+    border-bottom-color: var(--secondary-color);
   }
 }
 
-/* Tables */
+/* Tables - Clean and executive */
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
   background: var(--bg-color);
   border: 1px solid var(--border-color);
-  border-radius: 4px;
-  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   
   th {
     background: var(--primary-color);
     color: white;
     font-weight: 600;
-    padding: 0.875rem 1rem;
+    padding: 1rem 1.25rem;
     text-align: left;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
   }
   
   td {
-    padding: 0.75rem 1rem;
+    padding: 0.875rem 1.25rem;
     border-bottom: 1px solid var(--border-color);
+    
+    &:first-child {
+      font-weight: 500;
+      color: var(--text-light);
+      width: 30%;
+    }
   }
   
   tr:last-child td {
@@ -130,66 +172,91 @@ table {
   }
   
   tr:hover {
-    background-color: var(--code-bg);
+    background-color: var(--bg-secondary);
   }
 }
 
-/* Badge styling */
+/* Badge styling - Subtle hover */
 img[alt*="badge"] {
   display: inline-block;
-  margin: 0.25rem;
-  transition: transform 0.2s ease;
+  margin: 0.3rem;
+  transition: all 0.3s ease;
+  opacity: 0.9;
   
   &:hover {
     transform: translateY(-2px);
+    opacity: 1;
+    filter: brightness(1.1);
   }
 }
 
-p {
-  margin: 1rem 0;
-}
-
-/* Lists */
+/* Lists - Enhanced readability */
 ul, ol {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   padding-left: 2rem;
   
   li {
-    margin: 0.5rem 0;
-    line-height: 1.6;
+    margin: 0.75rem 0;
+    line-height: 1.7;
+    
+    &::marker {
+      color: var(--secondary-color);
+      font-weight: 600;
+    }
   }
-}
-
-/* Core Competencies section - clean styling */
-h2 {
-  position: relative;
   
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -0.5rem;
-    left: 0;
-    width: 60px;
-    height: 3px;
-    background: var(--secondary-color);
+  ul, ol {
+    margin: 0.5rem 0;
   }
 }
 
-/* Code and pre */
+/* Emphasis on key achievements */
+strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Code blocks */
 code {
   background-color: var(--code-bg);
-  padding: 0.2rem 0.4rem;
-  border-radius: 3px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
   font-size: 0.9em;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  border: 1px solid var(--border-color);
 }
 
 pre {
   background-color: var(--code-bg);
-  padding: 1rem;
-  border-radius: 6px;
+  padding: 1.5rem;
+  border-radius: 8px;
   overflow-x: auto;
   border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Paragraphs - Executive spacing */
+p {
+  margin: 1.25rem 0;
+  line-height: 1.8;
+}
+
+/* Section dividers */
+hr {
+  border: none;
+  border-top: 2px solid var(--border-color);
+  margin: 3rem 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color - Brand accent */
+::selection {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 /* Responsive design */
@@ -202,37 +269,94 @@ pre {
     font-size: 1.5rem;
   }
   
+  h3 {
+    font-size: 1.2rem;
+  }
+  
   table {
     font-size: 0.9rem;
+    
+    th, td {
+      padding: 0.75rem;
+    }
+  }
+  
+  img[alt*="badge"] {
+    margin: 0.2rem;
   }
 }
 
-/* Print styles */
+/* Print styles - Professional output */
 @media print {
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+  
   header {
-    background: white;
-    color: black;
+    background: white !important;
+    color: black !important;
+    border-bottom: 2px solid black !important;
   }
   
   a {
-    color: black;
-    text-decoration: underline;
+    color: black !important;
+    text-decoration: underline !important;
+    
+    &[href^="http"]:after {
+      content: " (" attr(href) ")";
+      font-size: 0.8em;
+      color: #666;
+    }
+  }
+  
+  h2 {
+    page-break-after: avoid;
+    border-bottom: 2px solid black !important;
+    
+    &::after {
+      background: black !important;
+    }
+  }
+  
+  h3, h4, h5 {
+    page-break-after: avoid;
+  }
+  
+  table {
+    page-break-inside: avoid;
+    border: 1px solid black !important;
+    
+    th {
+      background: #f0f0f0 !important;
+      color: black !important;
+      border-bottom: 2px solid black !important;
+    }
   }
   
   img[alt*="badge"] {
     display: none;
   }
+  
+  ul, ol {
+    page-break-inside: avoid;
+  }
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
-/* Selection color */
-::selection {
-  background-color: var(--secondary-color);
-  color: white;
-  opacity: 0.9;
+/* Focus styles for keyboard navigation */
+a:focus,
+button:focus {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
 }
-
