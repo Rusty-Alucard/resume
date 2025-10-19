@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minima
 title: KAZUSHI KAMIYA | VP of Engineering
 description: 20年以上の経験を持つVP of Engineering。技術戦略、グローバル組織開発、AI駆動開発を推進。
 show_downloads: false
@@ -15,3 +15,7 @@ twitter:
   username: tech_rusty
 linkedin:
   username: kazushi-kamiya
+
+# GitHub Pages settings
+baseurl: ""
+url: "https://rusty-alucard.github.io"
