@@ -1,6 +1,11 @@
 ---
 ---
 
+/* FORCE CUSTOM STYLES - OVERRIDE ALL THEMES */
+* {
+  box-sizing: border-box !important;
+}
+
 /* Minimal, Simple, and Age-Appropriate Design for 40s+ */
 
 :root {
