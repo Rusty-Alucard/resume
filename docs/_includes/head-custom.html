@@ -4,12 +4,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 <!-- FORCE CUSTOM CSS - OVERRIDE ALL THEMES -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" type="text/css" media="all">
-<style>
-/* Emergency override for any theme styles */
-body { font-family: 'Helvetica Neue', Arial, sans-serif !important; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Helvetica Neue', Arial, sans-serif !important; }
-</style>
+{% include force-custom-css.html %}
 
 <!-- SEO and Social Meta Tags -->
 <meta name="description" content="{{ site.description }}">
