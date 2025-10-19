@@ -19,3 +19,7 @@ linkedin:
 # GitHub Pages settings
 baseurl: ""
 url: "https://rusty-alucard.github.io"
+
+# Force rebuild
+markdown: kramdown
+highlighter: rouge
