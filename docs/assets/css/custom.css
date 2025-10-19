@@ -329,3 +329,205 @@ a:focus, button:focus {
   outline: 2px solid var(--secondary-color) !important;
   outline-offset: 2px !important;
 }
+
+/* Japanese Resume Specific Styles */
+.resume-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--shadow-light);
+}
+
+.photo-placeholder {
+  width: 120px;
+  height: 150px;
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+  margin-right: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.personal-info h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 0.05em;
+}
+
+.furigana {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin: 0;
+  font-weight: 400;
+}
+
+.japanese-resume-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--shadow-light);
+}
+
+.japanese-resume-table th {
+  background: var(--primary-color);
+  color: var(--header-text);
+  font-weight: 600;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  border-right: 1px solid var(--border-color);
+  width: 20%;
+  vertical-align: middle;
+}
+
+.japanese-resume-table th:last-child {
+  border-right: none;
+}
+
+.japanese-resume-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.japanese-resume-table td:last-child {
+  border-right: none;
+}
+
+.japanese-resume-table tr:last-child td {
+  border-bottom: none;
+}
+
+.japanese-resume-table tr:hover {
+  background: var(--bg-secondary);
+}
+
+.resume-footer {
+  text-align: right;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.resume-footer p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.date {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Navigation styles */
+.nav-container {
+  background: var(--header-bg);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--header-text);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive adjustments for Japanese resume */
+@media (max-width: 768px) {
+  .resume-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .photo-placeholder {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .personal-info h1 {
+    font-size: 2rem;
+  }
+  
+  .japanese-resume-table {
+    font-size: 0.85rem;
+  }
+  
+  .japanese-resume-table th,
+  .japanese-resume-table td {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Print styles for Japanese resume */
+@media print {
+  .resume-header {
+    border: 2px solid black;
+  }
+  
+  .photo-placeholder {
+    border: 2px solid black;
+  }
+  
+  .japanese-resume-table {
+    border: 2px solid black;
+  }
+  
+  .japanese-resume-table th {
+    background: #f0f0f0 !important;
+    color: black !important;
+  }
+  
+  .nav-container {
+    display: none;
+  }
+}

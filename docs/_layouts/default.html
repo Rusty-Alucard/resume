@@ -27,6 +27,14 @@
     <p>{{ site.description }}</p>
   </header>
 
+  <!-- Navigation -->
+  <nav class="nav-container">
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>職務経歴書</a></li>
+      <li><a href="{{ '/rirekisho' | relative_url }}" {% if page.url == '/rirekisho/' %}class="active"{% endif %}>履歴書</a></li>
+    </ul>
+  </nav>
+
   <main>
     {{ content }}
   </main>
