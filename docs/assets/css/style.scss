@@ -4,17 +4,21 @@
 /* Minimal, Simple, and Age-Appropriate Design for 40s+ */
 
 :root {
-  /* Muted, professional color palette */
-  --primary-color: #2C3E50;
-  --secondary-color: #7F8C8D;
-  --accent-color: #95A5A6;
-  --text-color: #2C3E50;
-  --text-light: #7F8C8D;
-  --bg-color: #FFFFFF;
-  --bg-secondary: #F8F9FA;
-  --border-color: #E9ECEF;
-  --header-bg: #2C3E50;
+  /* Executive-level color palette for VPoE */
+  --primary-color: #1A365D;
+  --secondary-color: #4A5568;
+  --accent-color: #718096;
+  --text-color: #2D3748;
+  --text-light: #718096;
+  --bg-color: #FEFEFE;
+  --bg-secondary: #F7FAFC;
+  --bg-warm: #FDF6E3;
+  --border-color: #E2E8F0;
+  --header-bg: #1A365D;
   --header-text: #FFFFFF;
+  --card-bg: #FFFFFF;
+  --shadow-light: rgba(0, 0, 0, 0.05);
+  --shadow-medium: rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,17 +31,17 @@
   }
 }
 
-/* Enhanced, readable typography */
+/* Executive-level typography for VPoE */
 body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', '游ゴシック', sans-serif !important;
   color: var(--text-color) !important;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important;
-  line-height: 1.8 !important;
+  background: var(--bg-color) !important;
+  line-height: 1.7 !important;
   font-size: 16px !important;
   font-weight: 400 !important;
-  max-width: 900px !important;
+  max-width: 1000px !important;
   margin: 0 auto !important;
-  padding: 0 20px !important;
+  padding: 0 30px !important;
   letter-spacing: 0.01em !important;
 }
 
@@ -57,17 +61,18 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: var(--primary-color);
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  padding: 1.5rem 2rem;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-left: 5px solid var(--secondary-color);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: var(--card-bg);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px var(--shadow-light);
   position: relative;
+  border: 1px solid var(--border-color);
   
   &::before {
     content: '';
@@ -75,33 +80,33 @@ h2 {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 5px;
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
-    border-radius: 0 3px 3px 0;
+    width: 4px;
+    background: var(--primary-color);
+    border-radius: 0 2px 2px 0;
   }
 }
 
 h3 {
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  color: var(--primary-color);
-  padding-left: 1rem;
-  border-left: 4px solid var(--secondary-color);
-  background: rgba(52, 152, 219, 0.05);
-  padding: 1rem 1.5rem;
-  border-radius: 0 8px 8px 0;
-}
-
-h4 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+  color: var(--primary-color);
+  padding-left: 1rem;
+  border-left: 3px solid var(--secondary-color);
+  background: var(--bg-secondary);
+  padding: 0.75rem 1rem;
+  border-radius: 0 4px 4px 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
   color: var(--text-color);
   padding-left: 0.5rem;
-  border-left: 3px solid var(--accent-color);
+  border-left: 2px solid var(--accent-color);
 }
 
 h5, h6 {
@@ -114,15 +119,15 @@ h5, h6 {
   letter-spacing: 0.05em;
 }
 
-/* Refined header with gradient and modern typography */
+/* Executive header for VPoE */
 header {
-  background: linear-gradient(135deg, #2C3E50 0%, #34495E 50%, #2C3E50 100%) !important;
+  background: var(--header-bg) !important;
   color: var(--header-text) !important;
-  padding: 4rem 0 !important;
-  margin-bottom: 3rem !important;
+  padding: 3rem 0 !important;
+  margin-bottom: 2rem !important;
   text-align: center !important;
   position: relative !important;
-  overflow: hidden !important;
+  border-bottom: 3px solid var(--secondary-color) !important;
   
   &::before {
     content: '';
@@ -131,33 +136,34 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, rgba(52, 152, 219, 0.1) 0%, rgba(155, 89, 182, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
     pointer-events: none;
   }
   
   h1 {
-    font-size: 3.2rem;
-    font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 600;
     margin: 0;
     color: var(--header-text);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     position: relative;
     z-index: 1;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
   }
   
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 1rem 0 0 0;
-    opacity: 0.95;
+    opacity: 0.9;
     font-weight: 300;
     position: relative;
     z-index: 1;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
+    font-weight: 400;
   }
   
   .header-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0.5rem 0 0 0;
     opacity: 0.8;
     font-weight: 400;
@@ -177,30 +183,39 @@ a {
   }
 }
 
-/* Clean tables */
+/* Executive tables */
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1.5rem 0;
-  background: var(--bg-color);
+  margin: 2rem 0;
+  background: var(--card-bg);
   border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--shadow-light);
   
   th {
-    background: var(--bg-secondary);
-    color: var(--text-color);
+    background: var(--primary-color);
+    color: var(--header-text);
     font-weight: 600;
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.25rem;
     text-align: left;
-    border-bottom: 2px solid var(--border-color);
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
   }
   
   td {
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.25rem;
     border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
   }
   
   tr:last-child td {
     border-bottom: none;
+  }
+  
+  tr:hover {
+    background: var(--bg-secondary);
   }
 }
 
@@ -220,14 +235,14 @@ img[alt*="badge"] {
   }
 }
 
-/* Technology stack section styling */
+/* Executive technology stack styling */
 .tech-stack {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: var(--card-bg);
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 2rem 0;
   border: 1px solid var(--border-color);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px var(--shadow-light);
 }
 
 .tech-category {
@@ -235,11 +250,12 @@ img[alt*="badge"] {
   
   h4 {
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--secondary-color);
     display: inline-block;
+    font-weight: 600;
   }
 }
 
@@ -286,19 +302,19 @@ p {
   color: var(--text-color);
 }
 
-/* Card-style sections */
+/* Executive card-style sections */
 .section-card {
-  background: white;
+  background: var(--card-bg);
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 2rem 0;
   border: 1px solid var(--border-color);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px var(--shadow-light);
   transition: all 0.3s ease;
   
   &:hover {
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
+    box-shadow: 0 4px 16px var(--shadow-medium);
+    transform: translateY(-1px);
   }
 }
 
@@ -409,16 +425,17 @@ html {
   }
 }
 
-/* Profile and social links styling */
+/* Executive profile and social links styling */
 .profile-section {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin: 2rem 0;
   padding: 2rem;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 12px;
+  background: var(--card-bg);
+  border-radius: 8px;
   border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px var(--shadow-light);
 }
 
 .profile-photo {
@@ -458,13 +475,14 @@ html {
   }
 }
 
-/* Enhanced contact information */
+/* Executive contact information */
 .contact-info {
-  background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+  background: var(--bg-warm);
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 2rem 0;
-  border-left: 5px solid var(--secondary-color);
+  border-left: 4px solid var(--secondary-color);
+  box-shadow: 0 2px 8px var(--shadow-light);
 }
 
 /* Focus styles for keyboard navigation */
