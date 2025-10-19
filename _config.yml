@@ -1,0 +1,47 @@
+theme: minima
+title: KAZUSHI KAMIYA | VP of Engineering
+description: 20年以上の経験を持つVP of Engineering。技術戦略、グローバル組織開発、AI駆動開発を推進。
+show_downloads: false
+google_analytics: 
+logo: 
+
+# SEO
+lang: ja
+author: 神谷 和志 (Kamiya Kazushi)
+keywords: VP of Engineering, エンジニアリング組織, 技術戦略, AI駆動開発, マネーフォワード
+
+# Social
+twitter:
+  username: tech_rusty
+linkedin:
+  username: kazushi-kamiya
+
+# Build settings
+source: docs
+destination: _site
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - .bundle/
+  - .git/
+  - .gitignore
+  - README.md
+  - LINT_CONFIG.md
