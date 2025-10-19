@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 /* Minimal, Simple, and Age-Appropriate Design for 40s+ */
 
 :root {
@@ -31,16 +29,16 @@
 
 /* Enhanced, readable typography */
 body {
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', '游ゴシック', sans-serif;
-  color: var(--text-color);
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-  line-height: 1.8;
-  font-size: 16px;
-  font-weight: 400;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-  letter-spacing: 0.01em;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', '游ゴシック', sans-serif !important;
+  color: var(--text-color) !important;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important;
+  line-height: 1.8 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+  letter-spacing: 0.01em !important;
 }
 
 /* Refined headings with visual hierarchy */
@@ -118,13 +116,13 @@ h5, h6 {
 
 /* Refined header with gradient and modern typography */
 header {
-  background: linear-gradient(135deg, #2C3E50 0%, #34495E 50%, #2C3E50 100%);
-  color: var(--header-text);
-  padding: 4rem 0;
-  margin-bottom: 3rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(135deg, #2C3E50 0%, #34495E 50%, #2C3E50 100%) !important;
+  color: var(--header-text) !important;
+  padding: 4rem 0 !important;
+  margin-bottom: 3rem !important;
+  text-align: center !important;
+  position: relative !important;
+  overflow: hidden !important;
   
   &::before {
     content: '';
