@@ -305,7 +305,7 @@ VPoEとして、グローバルな採用戦略の策定・実行、新卒・中�
 
 ### インタビュー・記事掲載
 
-- [過渡期を迎えるスタートアップの開発組織の舞台裏](https://note.com/contracts/n/n93cf2ee8d4ca)
+- 過渡期を迎えるスタートアップの開発組織の舞台裏（リンク切れのため一時的に削除）
 - [20を超えるBtoB SaaSの価値を最大化する「クラウド横断本部」～Vol.1 本部長 神谷 和志～](https://note.com/recruit_mfbc/n/nee836bec975d)
 - [Money Forward: Building a Global Engineering Organization](https://www.tokyodev.com/ja/articles/moneyforward)
 - [マネーフォワード VPoE特別対談: エンジニア組織の未来を拓くHRBPへのメッセージ](https://note.com/recruit_mfbc/n/n06cc20a3523a)
