@@ -17,7 +17,7 @@ linkedin:
   username: kazushi-kamiya
 
 # GitHub Pages settings
-baseurl: ""
+baseurl: "/resume"
 url: "https://rusty-alucard.github.io"
 
 # Force rebuild and optimization
