@@ -456,20 +456,22 @@ a:focus, button:focus {
 }
 
 .nav-links a {
-  color: var(--header-text);
+  color: var(--header-text) !important;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.1rem;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   transition: all 0.3s ease;
   border: 2px solid transparent;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  color: var(--header-text) !important;
 }
 
 /* Responsive adjustments for Japanese resume */
