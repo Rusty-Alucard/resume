@@ -12,6 +12,7 @@ layout: default
 |連絡先|[rusty0929+job@gmail.com](mailto:rusty0929+job@gmail.com)|
 |勤務地|東京|
 |希望勤務地|東京|
+|64personalities|[ENTJ-AC (Assertive Commander)](https://64personalities-lifepath.com/)|
 
 ## 職務要約
 
